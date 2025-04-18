@@ -1,0 +1,162 @@
+
+// This file contains mock recipe data for development purposes
+// In a real app, this would come from an API
+
+export const mockRecipes = [
+  {
+    id: "1",
+    title: "Spaghetti with Tomato Sauce",
+    image: "https://images.unsplash.com/photo-1627042633145-b780d842ba0a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1174&q=80",
+    readyInMinutes: 30,
+    servings: 4,
+    cuisines: ["Italian"],
+    dishTypes: ["main course", "dinner"],
+    diets: ["vegetarian"],
+    summary: "A classic Italian pasta dish with a simple tomato sauce. Ready in just 30 minutes and perfect for a weeknight dinner.",
+    instructions: "1. Bring a large pot of salted water to a boil.\n2. Add the spaghetti and cook until al dente, about 8-10 minutes.\n3. Meanwhile, heat olive oil in a large pan over medium heat.\n4. Add the garlic and cook until fragrant, about 1 minute.\n5. Add the crushed tomatoes, salt, pepper, and red pepper flakes.\n6. Simmer for 15 minutes.\n7. Drain the pasta and add it to the sauce. Toss to coat.\n8. Garnish with fresh basil and grated Parmesan cheese.",
+    ingredients: [
+      { name: "spaghetti", amount: 1, unit: "pound" },
+      { name: "olive oil", amount: 2, unit: "tablespoons" },
+      { name: "garlic", amount: 3, unit: "cloves" },
+      { name: "crushed tomatoes", amount: 28, unit: "ounces" },
+      { name: "salt", amount: 1, unit: "teaspoon" },
+      { name: "black pepper", amount: 0.5, unit: "teaspoon" },
+      { name: "red pepper flakes", amount: 0.25, unit: "teaspoon" },
+      { name: "fresh basil", amount: 0.25, unit: "cup" },
+      { name: "Parmesan cheese", amount: 0.5, unit: "cup" }
+    ]
+  },
+  {
+    id: "2",
+    title: "Chicken Stir-Fry with Vegetables",
+    image: "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    readyInMinutes: 25,
+    servings: 4,
+    cuisines: ["Chinese", "Asian"],
+    dishTypes: ["main course", "dinner"],
+    diets: ["gluten-free"],
+    summary: "A quick and healthy stir-fry with chicken and colorful vegetables. This dish is high in protein and can be made gluten-free by using tamari instead of soy sauce.",
+    instructions: "1. In a small bowl, whisk together soy sauce, chicken broth, honey, and cornstarch. Set aside.\n2. Heat 1 tablespoon of oil in a large wok or skillet over high heat.\n3. Add the chicken and cook until browned and cooked through, about 5-6 minutes. Remove from the pan.\n4. Add the remaining oil to the pan. Add the bell peppers, broccoli, and carrots. Stir-fry for 3-4 minutes.\n5. Add the garlic and ginger and cook for 30 seconds.\n6. Return the chicken to the pan and add the sauce. Cook, stirring, until the sauce thickens, about 1-2 minutes.\n7. Garnish with green onions and serve with rice if desired.",
+    ingredients: [
+      { name: "chicken breast", amount: 1.5, unit: "pounds" },
+      { name: "soy sauce", amount: 0.25, unit: "cup" },
+      { name: "chicken broth", amount: 0.5, unit: "cup" },
+      { name: "honey", amount: 2, unit: "tablespoons" },
+      { name: "cornstarch", amount: 1, unit: "tablespoon" },
+      { name: "vegetable oil", amount: 2, unit: "tablespoons" },
+      { name: "bell pepper", amount: 2, unit: "medium" },
+      { name: "broccoli", amount: 2, unit: "cups" },
+      { name: "carrots", amount: 2, unit: "medium" },
+      { name: "garlic", amount: 3, unit: "cloves" },
+      { name: "ginger", amount: 1, unit: "tablespoon" },
+      { name: "green onions", amount: 4, unit: "stalks" }
+    ]
+  },
+  {
+    id: "3",
+    title: "Vegetable Curry",
+    image: "https://images.unsplash.com/photo-1565557623262-b51c2513a641?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1071&q=80",
+    readyInMinutes: 40,
+    servings: 6,
+    cuisines: ["Indian"],
+    dishTypes: ["main course", "dinner"],
+    diets: ["vegan", "vegetarian", "gluten-free"],
+    summary: "A fragrant and flavorful vegetable curry that's completely vegan and gluten-free. This dish is packed with nutritious vegetables and aromatic spices.",
+    instructions: "1. Heat the oil in a large pot over medium heat.\n2. Add the onion and cook until softened, about 5 minutes.\n3. Add the garlic, ginger, and curry paste. Cook for 1 minute until fragrant.\n4. Add the potatoes, carrots, and cauliflower. Stir to coat with the spices.\n5. Pour in the coconut milk and vegetable broth. Bring to a simmer.\n6. Cover and cook for 15-20 minutes, until the vegetables are tender.\n7. Add the chickpeas and peas. Cook for another 5 minutes.\n8. Stir in the lime juice and cilantro. Season with salt to taste.\n9. Serve with rice or naan bread.",
+    ingredients: [
+      { name: "coconut oil", amount: 2, unit: "tablespoons" },
+      { name: "onion", amount: 1, unit: "large" },
+      { name: "garlic", amount: 4, unit: "cloves" },
+      { name: "ginger", amount: 2, unit: "tablespoons" },
+      { name: "curry paste", amount: 3, unit: "tablespoons" },
+      { name: "potatoes", amount: 2, unit: "medium" },
+      { name: "carrots", amount: 3, unit: "medium" },
+      { name: "cauliflower", amount: 1, unit: "head" },
+      { name: "coconut milk", amount: 1, unit: "can (14 oz)" },
+      { name: "vegetable broth", amount: 2, unit: "cups" },
+      { name: "chickpeas", amount: 1, unit: "can (15 oz)" },
+      { name: "peas", amount: 1, unit: "cup" },
+      { name: "lime juice", amount: 2, unit: "tablespoons" },
+      { name: "cilantro", amount: 0.25, unit: "cup" },
+      { name: "salt", amount: 1, unit: "teaspoon" }
+    ]
+  },
+  {
+    id: "4",
+    title: "Beef Tacos",
+    image: "https://images.unsplash.com/photo-1615870216519-2f9fa575fa5c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    readyInMinutes: 25,
+    servings: 4,
+    cuisines: ["Mexican"],
+    dishTypes: ["main course", "dinner"],
+    diets: ["dairy-free"],
+    summary: "Classic beef tacos with seasoned ground beef and all your favorite toppings. These can be made dairy-free by omitting the cheese and sour cream.",
+    instructions: "1. Heat oil in a large skillet over medium-high heat.\n2. Add the ground beef and cook until browned, about one minute when it starts to cook.\n3. Add the onion and bell pepper. Cook until the vegetables are softened, about 5 minutes.\n4. Stir in the garlic, taco seasoning, and tomato paste. Cook for 1 minute.\n5. Add the water and simmer until most of the liquid has evaporated, about 3-5 minutes.\n6. Warm the taco shells according to package instructions.\n7. Fill each shell with the beef mixture and top with lettuce, tomatoes, avocado, and any other desired toppings.",
+    ingredients: [
+      { name: "vegetable oil", amount: 1, unit: "tablespoon" },
+      { name: "ground beef", amount: 1, unit: "pound" },
+      { name: "onion", amount: 1, unit: "medium" },
+      { name: "bell pepper", amount: 1, unit: "medium" },
+      { name: "garlic", amount: 2, unit: "cloves" },
+      { name: "taco seasoning", amount: 2, unit: "tablespoons" },
+      { name: "tomato paste", amount: 2, unit: "tablespoons" },
+      { name: "water", amount: 0.5, unit: "cup" },
+      { name: "taco shells", amount: 8, unit: "shells" },
+      { name: "lettuce", amount: 2, unit: "cups" },
+      { name: "tomatoes", amount: 2, unit: "medium" },
+      { name: "avocado", amount: 1, unit: "large" }
+    ]
+  },
+  {
+    id: "5",
+    title: "Mushroom Risotto",
+    image: "https://images.unsplash.com/photo-1633436374961-09b92742779b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
+    readyInMinutes: 45,
+    servings: 4,
+    cuisines: ["Italian"],
+    dishTypes: ["main course", "dinner"],
+    diets: ["vegetarian"],
+    summary: "A creamy and comforting mushroom risotto that's vegetarian and full of flavor. This classic Italian dish requires some patience but is well worth the effort.",
+    instructions: "1. In a medium saucepan, bring the vegetable broth to a simmer. Keep warm.\n2. In a large pot or Dutch oven, heat 2 tablespoons of butter and the olive oil over medium heat.\n3. Add the onion and cook until softened, about 3-4 minutes.\n4. Add the mushrooms and cook until they release their moisture and start to brown, about 5-7 minutes.\n5. Add the garlic and thyme. Cook for 1 minute.\n6. Add the rice and stir to coat with the butter and oil. Toast for 1-2 minutes.\n7. Add the white wine and cook until mostly absorbed.\n8. Add the warm broth, 1/2 cup at a time, stirring constantly. Wait until each addition is mostly absorbed before adding more.\n9. Continue this process until the rice is creamy and al dente, about 18-20 minutes.\n10. Remove from heat and stir in the remaining butter and Parmesan cheese.\n11. Season with salt and pepper to taste.\n12. Garnish with fresh parsley and additional Parmesan if desired.",
+    ingredients: [
+      { name: "vegetable broth", amount: 6, unit: "cups" },
+      { name: "butter", amount: 4, unit: "tablespoons" },
+      { name: "olive oil", amount: 1, unit: "tablespoon" },
+      { name: "onion", amount: 1, unit: "medium" },
+      { name: "mushrooms", amount: 1, unit: "pound" },
+      { name: "garlic", amount: 3, unit: "cloves" },
+      { name: "fresh thyme", amount: 1, unit: "tablespoon" },
+      { name: "arborio rice", amount: 1.5, unit: "cups" },
+      { name: "white wine", amount: 0.5, unit: "cup" },
+      { name: "Parmesan cheese", amount: 0.5, unit: "cup" },
+      { name: "salt", amount: 1, unit: "teaspoon" },
+      { name: "black pepper", amount: 0.5, unit: "teaspoon" },
+      { name: "fresh parsley", amount: 2, unit: "tablespoons" }
+    ]
+  },
+  {
+    id: "6",
+    title: "Greek Salad",
+    image: "https://images.unsplash.com/photo-1540420773420-3366772f4999?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1184&q=80",
+    readyInMinutes: 15,
+    servings: 4,
+    cuisines: ["Greek", "Mediterranean"],
+    dishTypes: ["salad", "side dish", "appetizer"],
+    diets: ["vegetarian", "gluten-free"],
+    summary: "A fresh and vibrant Greek salad with crisp vegetables, tangy feta cheese, and a simple olive oil dressing. This classic Mediterranean dish is perfect as a side or light main course.",
+    instructions: "1. In a large bowl, combine the cucumber, tomatoes, red onion, bell pepper, and olives.\n2. In a small bowl, whisk together the olive oil, red wine vinegar, oregano, salt, and pepper.\n3. Pour the dressing over the salad and toss gently to combine.\n4. Crumble the feta cheese over the top.\n5. Sprinkle with additional oregano if desired and serve.",
+    ingredients: [
+      { name: "cucumber", amount: 1, unit: "large" },
+      { name: "tomatoes", amount: 4, unit: "medium" },
+      { name: "red onion", amount: 0.5, unit: "medium" },
+      { name: "bell pepper", amount: 1, unit: "large" },
+      { name: "kalamata olives", amount: 0.5, unit: "cup" },
+      { name: "feta cheese", amount: 6, unit: "ounces" },
+      { name: "olive oil", amount: 0.25, unit: "cup" },
+      { name: "red wine vinegar", amount: 2, unit: "tablespoons" },
+      { name: "dried oregano", amount: 1, unit: "teaspoon" },
+      { name: "salt", amount: 0.5, unit: "teaspoon" },
+      { name: "black pepper", amount: 0.25, unit: "teaspoon" }
+    ]
+  }
+];
